@@ -1,0 +1,107 @@
+body    {
+    background-image: url(../images/background.jpg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#header {
+    margin: 0 auto;
+}
+
+#container {
+        height: auto;
+        width: 900px;
+        margin-top: 20px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+#contentright {
+    font-size: small;
+    background-color: mediumpurple;
+    width: 510px;
+    margin-top: 5px;
+    float: left;
+    padding: 5px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contentleft {
+        float: left;
+        width: 355px;
+        padding: 10px;
+        margin: 5px 5px 0px 0px;
+        background-color: rgb(255, 174, 219);
+}
+
+#contentleft img {        
+    border-color: #e77ae2;
+    border-style:groove
+}
+
+#aboutme {
+    text-align: center;
+}
+
+h1, h2 {
+    text-decoration: underline rgb(117, 231, 94);
+    font-style: italic; 
+    font-weight:bold;
+    color:#000000;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#navigation ul {
+    margin: 0 auto;
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    width: 897px;
+    padding: 0.2em 0.1em;
+    font-family:monospace
+}
+
+#navigation ul li { display: inline; }
+
+#navigation ul li a{
+    padding: 0.4em;
+    text-decoration:wavy;
+    color: black;
+    border-right: 2px solid #73e65c;
+    border-left: 2px solid #73e65c;
+    font-size: large;
+}
+    
+#navigation ul li a:hover{
+    background-color: rgb(135, 253, 151);
+    color: #ff54b8;
+}
+
+img {
+    display: block;
+    margin: 0 auto
+}
+
+#introverted {
+    padding-top: 5px;
+    display: block;
+    margin: 0 auto
+}
+
+.custom-bullets {
+    list-style-image: url('../images/bullet.png');
+}
+
+h3 {
+    text-decoration:underline dotted #73e65c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.links:hover {
+    background-color: rgb(135, 253, 151);
+    color: #ff54b8;
+}
